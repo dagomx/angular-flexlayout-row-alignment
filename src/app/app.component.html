@@ -19,10 +19,11 @@
         animate='false'
         primaryColor='#cecece'
         secondaryColor='#777777'
-        height="40"
+        height="25"
         width="1000">
-          <svg:rect x="0" y="0" rx="5" ry="5" width="150" height="20" />
-     </content-loader>
+          <svg:rect x="0" y="0" rx="5" ry="5" width="230" height="20" />
+          <svg:rect x="850" y="0" rx="5" ry="5" width="150" height="20" />
+      </content-loader>
 
     </div>
 
@@ -40,7 +41,175 @@
                   secondaryColor='#777777'
                   height="40"
                   width="1000">
-                    <svg:rect x="0" y="0" rx="5" ry="5" width="150" height="20" />
+                    <svg:rect x="0" y="15" rx="5" ry="5" width="250" height="20" />
+                </content-loader>
+
+              </span>
+              <span class="angle align-right">
+                <i class="fa fa-angle-down"></i>
+              </span>
+            </div>
+          </div>
+          <div fxFlex *ngIf="selectedCategory === category" class="question-container">
+            <div fxLayout="column">
+              <div fxFlex class="question-link" *ngFor="let question of category?.faqResults">
+                <span class="link" (click)="selectQuestion(question)">{{ question.questionText }}</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div fxLayout="column" class="category-border">
+          <div fxFLex>
+            <div fxLayout="row" fxLayoutAlign="center center" class="category-label link">
+              <span style="width: 100%; height: 100%;">
+                
+                <content-loader
+                  animate='false'
+                  primaryColor='#cecece'
+                  secondaryColor='#777777'
+                  height="40"
+                  width="1000">
+                    <svg:rect x="0" y="15" rx="5" ry="5" width="250" height="20" />
+                </content-loader>
+
+              </span>
+              <span class="angle align-right">
+                <i class="fa fa-angle-down"></i>
+              </span>
+            </div>
+          </div>
+          <div fxFlex *ngIf="selectedCategory === category" class="question-container">
+            <div fxLayout="column">
+              <div fxFlex class="question-link" *ngFor="let question of category?.faqResults">
+                <span class="link" (click)="selectQuestion(question)">{{ question.questionText }}</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div fxLayout="column" class="category-border">
+          <div fxFLex>
+            <div fxLayout="row" fxLayoutAlign="center center" class="category-label link">
+              <span style="width: 100%; height: 100%;">
+                
+                <content-loader
+                  animate='false'
+                  primaryColor='#cecece'
+                  secondaryColor='#777777'
+                  height="40"
+                  width="1000">
+                    <svg:rect x="0" y="15" rx="5" ry="5" width="250" height="20" />
+                </content-loader>
+
+              </span>
+              <span class="angle align-right">
+                <i class="fa fa-angle-down"></i>
+              </span>
+            </div>
+          </div>
+          <div fxFlex *ngIf="selectedCategory === category" class="question-container">
+            <div fxLayout="column">
+              <div fxFlex class="question-link" *ngFor="let question of category?.faqResults">
+                <span class="link" (click)="selectQuestion(question)">{{ question.questionText }}</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div fxLayout="column" class="category-border">
+          <div fxFLex>
+            <div fxLayout="row" fxLayoutAlign="center center" class="category-label link">
+              <span style="width: 100%; height: 100%;">
+                
+                <content-loader
+                  animate='false'
+                  primaryColor='#cecece'
+                  secondaryColor='#777777'
+                  height="40"
+                  width="1000">
+                    <svg:rect x="0" y="15" rx="5" ry="5" width="250" height="20" />
+                </content-loader>
+
+              </span>
+              <span class="angle align-right">
+                <i class="fa fa-angle-down"></i>
+              </span>
+            </div>
+          </div>
+          <div fxFlex *ngIf="selectedCategory === category" class="question-container">
+            <div fxLayout="column">
+              <div fxFlex class="question-link" *ngFor="let question of category?.faqResults">
+                <span class="link" (click)="selectQuestion(question)">{{ question.questionText }}</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div fxLayout="column" class="category-border">
+          <div fxFLex>
+            <div fxLayout="row" fxLayoutAlign="center center" class="category-label link">
+              <span style="width: 100%; height: 100%;">
+                
+                <content-loader
+                  animate='false'
+                  primaryColor='#cecece'
+                  secondaryColor='#777777'
+                  height="40"
+                  width="1000">
+                    <svg:rect x="0" y="15" rx="5" ry="5" width="250" height="20" />
+                </content-loader>
+
+              </span>
+              <span class="angle align-right">
+                <i class="fa fa-angle-down"></i>
+              </span>
+            </div>
+          </div>
+          <div fxFlex *ngIf="selectedCategory === category" class="question-container">
+            <div fxLayout="column">
+              <div fxFlex class="question-link" *ngFor="let question of category?.faqResults">
+                <span class="link" (click)="selectQuestion(question)">{{ question.questionText }}</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div fxLayout="column" class="category-border">
+          <div fxFLex>
+            <div fxLayout="row" fxLayoutAlign="center center" class="category-label link">
+              <span style="width: 100%; height: 100%;">
+                
+                <content-loader
+                  animate='false'
+                  primaryColor='#cecece'
+                  secondaryColor='#777777'
+                  height="40"
+                  width="1000">
+                    <svg:rect x="0" y="15" rx="5" ry="5" width="250" height="20" />
+                </content-loader>
+
+              </span>
+              <span class="angle align-right">
+                <i class="fa fa-angle-down"></i>
+              </span>
+            </div>
+          </div>
+          <div fxFlex *ngIf="selectedCategory === category" class="question-container">
+            <div fxLayout="column">
+              <div fxFlex class="question-link" *ngFor="let question of category?.faqResults">
+                <span class="link" (click)="selectQuestion(question)">{{ question.questionText }}</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div fxLayout="column" class="category-border">
+          <div fxFLex>
+            <div fxLayout="row" fxLayoutAlign="center center" class="category-label link">
+              <span style="width: 100%; height: 100%;">
+                
+                <content-loader
+                  animate='false'
+                  primaryColor='#cecece'
+                  secondaryColor='#777777'
+                  height="40"
+                  width="1000">
+                    <svg:rect x="0" y="15" rx="5" ry="5" width="250" height="20" />
                 </content-loader>
 
               </span>
@@ -60,60 +229,37 @@
       </div>
     </div>
 
-    <!-- <div fxFlex class="selected-question-container" *ngIf="selectedQuestion">
-      <div fxLayout="column">
-        <div fxFlex>
-          <span (click)="goBackToCategory()" class="back-link link">
-            <span class="angle"><i class="fa fa-angle-left"></i></span>
-            <span>BACK</span>
-          </span>
-        </div>
-
-        <div fxFlex fxFlexOffset="25px" class="header-text"></div>
-
-        <div fxFlex fxFlexOffset="25px"
-          class="question-text"></div>
-
-        <div fxFlex fxFlexOffset="25px"
-          class="answer-text"></div>
-
-        <ng-container *ngIf="relatedQuestions?.length > 0">
-          <div fxFlex fxFlexOffset="20px">
-            <div class="divider"></div>
-          </div>
-
-          <div fxFlex fxFlexOffset="20px">
-            <div fxLayout="column">
-              <div fxFlex class="related-questions-label">
-                RELATED QUESTIONS
-              </div>
-              <div fxFlex class="question-link" fxShow fxHide.gt-sm
-                *ngFor="let relatedQuestion of relatedQuestionsMobile; let i = index;">
-                <span (click)="selectQuestion(relatedQuestion)" class="link">{{ relatedQuestion.questionText }}</span>
-              </div>
-              <div fxFlex class="question-link" fxHide fxShow.gt-sm
-                *ngFor="let relatedQuestion of relatedQuestions; let i = index;">
-                <span (click)="selectQuestion(relatedQuestion)" class="link">{{ relatedQuestion.questionText }}</span>
-              </div>
-            </div>
-          </div>
-        </ng-container>
-
-      </div>
-    </div> -->
-
     <div fxFlex fxFlexOrder.gt-sm="3" fxHide fxShow.gt-sm fxFlexOffset.gt-sm="100px" *ngIf="!selectedQuestion">
       <div class="divider"></div>
     </div>
 
     <div fxFlex fxFlexOrder="1" fxFlexOrder.gt-sm="4" fxFlexOffset.gt-sm="20px" *ngIf="!selectedQuestion">
-      This page is designed to assist your as you explore the Disney Movie Club - just click on a topic to jump to the
-      information that best matches your question.
+      
+      <content-loader
+        animate='false'
+        primaryColor='#cecece'
+        secondaryColor='#777777'
+        height="25"
+        width="1000">
+          <svg:rect x="0" y="0" rx="5" ry="5" width="990" height="20" />
+      </content-loader>
+
     </div>
 
     <div fxFlex fxFlexOrder=2 fxFlexOrder.gt-sm="5" fxFlexOffset="20px" fxFlexOffset.gt-sm="20px"
       *ngIf="!selectedQuestion">
-      <span class="contact-us-link link">Contact Us</span>
+      <span class="contact-us-link link">
+        
+        <content-loader
+          animate='false'
+          primaryColor='#cecece'
+          secondaryColor='#777777'
+          height="25"
+          width="1000">
+            <svg:rect x="0" y="0" rx="5" ry="5" width="160" height="20" />
+        </content-loader>
+
+      </span>
     </div>
   </div>
 </div>

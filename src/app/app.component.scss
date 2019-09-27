@@ -23,7 +23,6 @@ $lt-md: "screen and (max-width: 767px)";
 $lt-sm: "screen and (max-width: 599px)";
 
 .faq-component {
-  font-family: $proxima;
 
   .banner {
     img.banner-image {
@@ -62,11 +61,11 @@ $lt-sm: "screen and (max-width: 599px)";
     }
 
     .divider {
-      border: 0.0625rem solid $base-lighter-gray;
+      border: 0.0625rem solid #ccc;
     }
 
     .category-container {
-      border: 0.125rem solid $base-lighter-gray;
+      border: 0.125rem solid #ccc;
       border-radius: 0.25rem;
 
       .category-label {
@@ -79,14 +78,14 @@ $lt-sm: "screen and (max-width: 599px)";
       }
 
       .question-container {
-        background-color: $snow;
+        background-color: #ddd;
         padding: 0 1.25rem;    
-        border-top: 0.125rem solid $base-lighter-gray;
+        border-top: 0.125rem solid #ccc;
       }
     }
 
     .category-border {
-      border-bottom: 0.125rem solid $base-lighter-gray;
+      border-bottom: 0.125rem solid #ccc;
     }
     .category-border:last-child {
       border-bottom: none;
@@ -96,11 +95,11 @@ $lt-sm: "screen and (max-width: 599px)";
       .header-text {
         font-size: 1.5625rem;
         line-height: 1.8125rem;
-        color: $divider-gray;
+        color: #ddd;
       }
 
       .question-text {
-        color: $granite-gray;
+        color: #aaa;
         font-size: 1.875rem;
         font-weight: bold;
 
@@ -122,7 +121,6 @@ $lt-sm: "screen and (max-width: 599px)";
     }
 
     .contact-us-link {
-      color: $lighter-blue;
       text-decoration: underline;
       font-size: 1.1rem;
       font-weight: bold;
