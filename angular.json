@@ -96,5 +96,9 @@
       }
     }
   },
-  "defaultProject": "demo"
+  "defaultProject": "demo",
+  "defaults": {
+    "styleExt": "scss",
+    "component": {}
+  }
 }
