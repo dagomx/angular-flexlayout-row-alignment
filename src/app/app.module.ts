@@ -8,8 +8,10 @@ import { FlexLayoutModule } from '@angular/flex-layout';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 import { library } from '@fortawesome/fontawesome-svg-core';
 
+import {ContentLoaderModule} from '@ngneat/content-loader';
+
 @NgModule({
-  imports:      [ BrowserModule, FormsModule, FlexLayoutModule, FontAwesomeModule ],
+  imports:      [ BrowserModule, FormsModule, FlexLayoutModule, FontAwesomeModule, ContentLoaderModule ],
   declarations: [ AppComponent, HelloComponent ],
   bootstrap:    [ AppComponent ]
 })
