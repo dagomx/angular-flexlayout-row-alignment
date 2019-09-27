@@ -226,6 +226,34 @@
             </div>
           </div>
         </div>
+        <div fxLayout="column" class="category-border">
+          <div fxFLex>
+            <div fxLayout="row" fxLayoutAlign="center center" class="category-label link">
+              <span style="width: 100%; height: 100%;">
+                
+                <content-loader
+                  animate='false'
+                  primaryColor='#cecece'
+                  secondaryColor='#777777'
+                  height="40"
+                  width="1000">
+                    <svg:rect x="0" y="15" rx="5" ry="5" width="250" height="20" />
+                </content-loader>
+
+              </span>
+              <span class="angle align-right">
+                <i class="fa fa-angle-down"></i>
+              </span>
+            </div>
+          </div>
+          <div fxFlex *ngIf="selectedCategory === category" class="question-container">
+            <div fxLayout="column">
+              <div fxFlex class="question-link" *ngFor="let question of category?.faqResults">
+                <span class="link" (click)="selectQuestion(question)">{{ question.questionText }}</span>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
 

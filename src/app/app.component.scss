@@ -23,7 +23,6 @@ $lt-md: "screen and (max-width: 767px)";
 $lt-sm: "screen and (max-width: 599px)";
 
 .faq-component {
-
   .banner {
     img.banner-image {
       width: 100%;
@@ -44,16 +43,6 @@ $lt-sm: "screen and (max-width: 599px)";
 
     @media #{$gt-md} {
       margin: 3.125rem 5.625rem;
-    }
-
-    .faq-header {
-      font-weight: 600;
-    }
-
-    .angle {
-      font-size: 2rem;
-      line-height: 2rem;
-      vertical-align: middle;
     }
 
     .align-right {
@@ -89,41 +78,6 @@ $lt-sm: "screen and (max-width: 599px)";
     }
     .category-border:last-child {
       border-bottom: none;
-    }
-
-    .selected-question-container {
-      .header-text {
-        font-size: 1.5625rem;
-        line-height: 1.8125rem;
-        color: #ddd;
-      }
-
-      .question-text {
-        color: #aaa;
-        font-size: 1.875rem;
-        font-weight: bold;
-
-        @media #{$gt-md} {
-          font-size: 2.1875rem;
-        }
-      }
-
-      .related-questions-label {
-        font-weight: bold;
-      }
-
-      .back-link {
-        span:nth-child(2) {
-          font-size: 0.9rem;
-          font-weight: bold;
-        }
-      }
-    }
-
-    .contact-us-link {
-      text-decoration: underline;
-      font-size: 1.1rem;
-      font-weight: bold;
     }
   }
 }
