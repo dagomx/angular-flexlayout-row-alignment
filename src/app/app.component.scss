@@ -1,3 +1,27 @@
+$xs: "screen and (min-width: 1px) and (max-width: 599px)";
+$sm: "screen and (min-width: 600px) and (max-width: 767px)";
+  // Tablets
+$md: "screen and (min-width: 768px) and (max-width: 1024px)";
+  // Desktop
+$lg: "screen and (min-width: 1025px) and (max-width: 1919px)";
+$xl: "screen and (min-width: 1920px) and (max-width: 5000px)";
+
+// Mobile-first queries
+$gt-xs: "screen and (min-width: 600px)";
+  // Tablets and up
+$gt-sm: "screen and (min-width: 768px)";
+  // All desktops
+$gt-md: "screen and (min-width: 1025px)";
+$gt-lg: "screen and (min-width: 1920px)";
+
+// Desktop-first queries
+$lt-xl: "screen and (max-width: 1919px)";
+  // Tablets and below 
+$lt-lg: "screen and (max-width: 1024px)";
+  // All phones
+$lt-md: "screen and (max-width: 767px)";
+$lt-sm: "screen and (max-width: 599px)";
+
 .faq-component {
   font-family: $proxima;
 
